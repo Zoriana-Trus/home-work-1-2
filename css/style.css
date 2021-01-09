@@ -5,6 +5,7 @@
    primary white color #FFFFFF;
    footer contacts color: rgba(255, 255, 255, 0.6);
    first-bg-color #2F303A;
+   second-bg-color:  #F5F4FA;
 */
 
  :root {
@@ -172,5 +173,40 @@
  .contact-info .link:focus{
     color: var(--accent-color);
  }
+ 
+ /*PORTFOLIO*/
 
+ /*Buttons list*/
+
+ .button-list .button {
+     color: var(--title-color);
+     background-color: var(--second-bg-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+ }
+
+ .button-list .button:hover,
+ .button-list .button:focus {
+     color: var(--primary-white-color);
+     background-color: var(--accent-color);
+    }
+ 
+    /* works examples */
+
+ .card .title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    }
+
+ .card .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;  
+ }
+    
 
