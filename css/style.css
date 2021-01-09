@@ -1,0 +1,176 @@
+/* accent color #2196F3;
+   logo-color #000000;
+   primary text color #757575;
+   title color #212121;
+   primary white color #FFFFFF;
+   footer contacts color: rgba(255, 255, 255, 0.6);
+   first-bg-color #2F303A;
+*/
+
+ :root {
+     --title-color: #212121;
+     --primary-text-color: #757575;
+     --accent-color: #2196F3;
+     --primary-white-color: #FFFFFF;
+     --logo-color: #000000;
+     --footer-contacts-color: rgba(255, 255, 255, 0.6);
+
+     --first-bg-color: #2F303A;
+     --second-bg-color:  #F5F4FA;
+ }
+
+  body {
+   color: var(--primary-text-color);
+   background-color: var(--primary-white-color);
+   font-family: Roboto, sans-serif;
+  }
+
+  .list {
+      list-style: none;
+  }
+
+  /* site header*/
+  .site-nav .logo {
+      color: var(--logo-color);
+
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+  }
+
+  .site-nav .logo-web,
+  .footer .logo-web {
+    color: var(--accent-color);
+  }
+
+  .site-nav-list .link {
+      color: var(--title-color);
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+  }
+
+  .site-nav-list .link:hover,
+  .site-nav-list .link:focus {
+      color: var(--accent-color);
+  }
+
+  .contacts .link {
+      color: var(--primary-text-color);
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;   
+  }
+
+  
+  .contacts .link:hover,
+  .contacts .link:focus {
+       color: var(--accent-color);
+  }
+
+     /* section Hero*/
+  .hero {
+      background-color: var(--first-bg-color);
+
+  }
+  .hero .title {
+      color: var(--primary-white-color);
+
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      text-align: center;
+  }
+
+  .hero .button {
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
+
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+  }
+
+  /*sections*/
+
+  .section .section-title {
+      color: var(--title-color);
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17px;
+      text-align: center;
+  }
+
+  /* sections Features*/
+  .features-list .title{
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  .features-list .description {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+
+ /* sections team*/
+
+  .team {
+     background-color: var(--second-bg-color);
+    }
+
+  .team-list .title {
+      color: var(--title-color);
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;    
+    }
+
+   .team-list .text {
+      font-size: 16px;
+      line-height: 1.19;
+   }
+
+
+  /*Footer*/
+
+  .footer{
+      background-color: var(--first-bg-color);
+  }
+
+  .footer .logo {
+      color: var(--primary-white-color);
+
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+  }
+  .address .physical-address {
+    color: var(--primary-white-color);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+ .contact-info .link {
+     color: var(--footer-contacts-color);
+
+     font-style: normal;   
+     font-size: 14px;
+     line-height: 1.71;
+ }
+
+ .contact-info .link:hover,
+ .contact-info .link:focus{
+    color: var(--accent-color);
+ }
+
+
